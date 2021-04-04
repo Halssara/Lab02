@@ -17,4 +17,11 @@ int main()
     else
         max = b;
         cout << "max = " << max << '\n';
+    int min;
+    if (a < b)
+        min = a;
+    else
+        min = b;
+    cout << "min = " << min << '\n';
+
 }
