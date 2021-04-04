@@ -11,4 +11,10 @@ int main()
     << "raznost` = " << a - b << '\n'
     << "proizv = " << a * b << '\n'
     << "chastnoe = " << a / b << '\n';
+    int max;
+    if (a > b)
+        max = a;
+    else
+        max = b;
+        cout << "max = " << max << '\n';
 }
